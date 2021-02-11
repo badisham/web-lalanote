@@ -3,9 +3,9 @@
      <!-- Sidebar - Brand -->
      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
          <div class="sidebar-brand-icon rotate-n-15">
-             <i class="fas fa-laugh-wink"></i>
+             <i class="fas fa-music"></i>
          </div>
-         <div class="sidebar-brand-text mx-3">SB Admin <sup>2</sup></div>
+         <div class="sidebar-brand-text mx-3">LALANOTE</div>
      </a>
 
      <!-- Divider -->
@@ -26,17 +26,28 @@
          Interface
      </div>
 
+     <li class="nav-item">
+         <a class="nav-link" href="member.php">
+             <i class="fas fa-fw fa-chart-area"></i>
+             <span>ผู้ใช้งาน</span></a>
+     </li>
+     <li class="nav-item">
+         <a class="nav-link" href="institution.php">
+             <i class="fas fa-fw fa-chart-area"></i>
+             <span>สถาบันดนตรี</span></a>
+     </li>
+
      <!-- Nav Item - Pages Collapse Menu -->
      <li class="nav-item">
          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#masterData" aria-expanded="true" aria-controls="masterData">
              <i class="fas fa-fw fa-cog"></i>
-             <span>Master</span>
+             <span>ข้อมูล</span>
          </a>
          <div id="masterData" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
              <div class="bg-white py-2 collapse-inner rounded">
                  <h6 class="collapse-header">Custom Components:</h6>
-                 <a class="collapse-item" href="member.php">ผู้ใช้งาน</a>
-                 <a class="collapse-item" href="cards.html">Cards</a>
+                 <a class="collapse-item" href="reward.php">รางวัลทั้งหมด</a>
+                 <a class="collapse-item" href="ads.php">โฆษณาทั้งหมด</a>
              </div>
          </div>
      </li>
